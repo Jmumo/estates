@@ -1,0 +1,1 @@
+web: gunicorn homeland.wsgi
