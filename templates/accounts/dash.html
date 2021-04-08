@@ -1,4 +1,5 @@
-{% extends 'base.html'%}
+
+   {% extends 'base.html'%}
 
 {% block content%}
 <section id="showcase-inner" class="py-5 text-white"style="background: url('/static/img/building.jpg') no-repeat top center fixed;">
@@ -41,10 +42,10 @@
               </tr>
             </thead>
             <tbody>
-                {% for contact in contacts%}
+                {% for contact in contacts %}
               <tr>
-<!--                 <td>{% contact.id %}</td> -->
-                <td>{{ contact.listing }}</td>
+              
+                <td>{{contact.listing }}</td>
                 <td>
                   <a class="btn btn-light" href="{% url 'listing' contact.listing_id %}">View Listing</a>
                 </td>
