@@ -166,4 +166,4 @@ EMAIL_HOST_USER = 'johnmumo22@gmail.com'
 EMAIL_HOST_PASSWORD = '33608681'
 EMAIL_USE_TLS = True 
 
-django_heroku.settings(locals())
+django_on_heroku.settings(locals())
